@@ -7,30 +7,36 @@ public class MathMethods {
 
     // Addition
 
-    public static int add(int a, int b) {
-        int result = a + b;
+    public static double add(double a, double b) {
+        double result = a + b;
         return result;
     }
 
-    public static int subtract(int a, int b) {
-        int result1 = a - b;
+    public static double subtract(double a, double b) {
+        double result1 = a - b;
         return result1;
     }
 
-    public static int multiplication(int a, int b) {
-        int result2 = a * b;
+    public static double multiplication(double a, double b) {
+        double result2 = a * b;
         return result2;
     }
 
-    public static int division(int a, int b) {
-        int result3 = a / b;
+    public static double division(double a, double b) {
+        double result3 = a / b;
         return result3;
     }
 
-    public static int remainder(int a, int b) {
-        int result4 = a % b;
+    public static double remainder(double a, double b) {
+        double result4 = a % b;
         return result4;
     }
+    //absolute value
+    public static double absolute(double a, double b) {
+        double result5 = math.abs();
+        return result5;
+    }
+
 
 /*
     //The Java Math Class
@@ -52,8 +58,12 @@ public class MathMethods {
         //Trigonometric Math Functions
         Math.PI
 
-public static int Sine(Math.sin(input a))
-        Math.cos()
+        public static double Sine(Math.sin(input a))
+        //Math.cos()
+        public static double Cosine {
+        cos(double angle)
+
+
         Math.tan()
         Math.asin()
         Math.acos()
